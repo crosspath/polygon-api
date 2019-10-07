@@ -1,0 +1,1 @@
+Polygon = Struct.new(:points)

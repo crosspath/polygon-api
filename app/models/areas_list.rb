@@ -1,0 +1,1 @@
+AreasList = Struct.new(:polygons)
