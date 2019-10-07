@@ -11,7 +11,7 @@ class PointsController < ApplicationController
   private
   
   def get_point(value = params[:point])
-    raise ArgumentError, "Value is empty" if value.nil? || value.empty?
+    raise ArgumentError, "Value is empty" if value.blank?
     
     point = JSON.parse(value, symbolize_names: true)
     if point[:type] == 'Point' && point[:coordinates].size == 2
