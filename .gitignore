@@ -1,0 +1,10 @@
+log
+tmp
+
+!log/.keep
+!tmp/.keep
+
+.directory
+.DS_Store
+
+config/master.key
